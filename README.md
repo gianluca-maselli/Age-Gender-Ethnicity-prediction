@@ -5,6 +5,6 @@ This project present and automatic approach for face detection and face classifi
 ## Dataset
 The [dataset](https://drive.google.com/file/d/1-8toExAWx3LFXydBG-XaMc9jiQ9QunH2/view?usp=sharing) is freely available on my personal drive. 
 
-The Dataset chosen was the [UTKFace one](https://susanqq.github.io/UTKFace/). The latter is rewritten .csv file. To do so,  a file python has been used with wich each 200×200×3 image, representing a cropped face, is opened and resized to a 64×64×3 image by using the PIL library. At this point the multidimensional array is flattened and transformed into a list of strings.
+The Dataset chosen was the [UTKFace](https://susanqq.github.io/UTKFace/) one. The latter is rewritten .csv file. To do so,  a file python has been used with wich each 200×200×3 image, representing a cropped face, is opened and resized to a 64×64×3 image by using the PIL library. At this point the multidimensional array is flattened and transformed into a list of strings.
 
 
